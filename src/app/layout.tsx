@@ -16,7 +16,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <div className="min-h-screen flex flex-col">
+      <header className="bg-red-50 text-black p-4 flex ">
+        <h1 className="text-2xl flex-1">Celebs</h1>
+        {/* <nav >
+          <a href="/" className="mr-4 ">Home</a>
+          <a href="/about">About</a>
+        </nav> */}
+      </header>
+      <main className="flex-grow p-4">{children}</main>
+      <footer className="bg-red-50   p-4 text-center">
+        © 2024 My Application
+      </footer>
+    </div>
+      </body>
     </html>
   );
 }
