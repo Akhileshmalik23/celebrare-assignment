@@ -2,3 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+:root {
+    --font-roboto: 'Roboto', sans-serif;
+    --font-lobster: 'Lobster', cursive;
+    --font-pacifico: 'Pacifico', cursive;
+    --font-oswald: 'Oswald', sans-serif;
+    --font-dancing-script: 'Dancing Script', cursive;
+    --font-raleway: 'Raleway', sans-serif;
+    --font-bebas-neue: 'Bebas Neue', sans-serif;
+    --font-playfair-display: 'Playfair Display', serif;
+    --font-amatic-sc: 'Amatic SC', cursive;
+    --font-abril-fatface: 'Abril Fatface', serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-great-vibes: 'Great Vibes', cursive;
+    --font-cinzel: 'Cinzel', serif;
+    --font-fredoka-one: 'Fredoka One', sans-serif;
+    --font-zilla-slab: 'Zilla Slab', serif;
+    --font-merriweather: 'Merriweather', serif;
+    --font-varela-round: 'Varela Round', sans-serif;
+    --font-bitter: 'Bitter', serif;
+    --font-shadows-into-light: 'Shadows Into Light', cursive;
+    --font-quicksand: 'Quicksand', sans-serif;
+}
