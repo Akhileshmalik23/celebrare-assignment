@@ -25,7 +25,7 @@ export default function RootLayout({
           <a href="/about">About</a>
         </nav> */}
       </header>
-      <main className="flex-grow p-4">{children}</main>
+      <main className="flex-grow bg-red-50 p-4">{children}</main>
       <footer className="bg-red-50   p-4 text-center">
         © 2024 My Application
       </footer>
